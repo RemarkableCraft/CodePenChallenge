@@ -40,6 +40,12 @@ body::before {
 	background-position: center;
 }
 
+@media (max-width: 650px) {
+	body {
+		padding: 1em;
+	}
+}
+
 /* ===== Header ===== */
 header {
 	display: grid;
